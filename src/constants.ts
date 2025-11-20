@@ -11,11 +11,11 @@ import {
 import type { SkillCategory, ExperienceItem, Project, SocialLink } from './types';
 
 export const HERO_CONTENT = {
-  name: "Solomon Asefa",
+  name: "Solomon Asesfa",
   role: "Software Engineer",
   headline: "Building Intelligent Solutions for the Real World.",
   subheadline: "I bridge the gap between complex AI theories and impactful production software. Specializing in national-scale applications and digital innovation.",
-  email: "birukmaru12@gmail.com" // Placeholder
+  email: "assefas146@gmail.com" // Placeholder
 };
 
 export const ABOUT_CONTENT = {
@@ -108,7 +108,7 @@ export const PROJECTS_DATA: Project[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     platform: "GitHub",
-    url: "https://github.com",
+    url: "https://github.com/assefasolomon",
     icon: Github
   },
   {

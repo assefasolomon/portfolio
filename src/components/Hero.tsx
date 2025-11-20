@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Download, ArrowRight } from "lucide-react";
 import { HERO_CONTENT } from "../constants";
+import myImage from "../assets/solomon.png";
 
 const Hero: React.FC = () => {
   return (
@@ -63,8 +64,8 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-secondary rounded-2xl rotate-6 opacity-20 blur-sm"></div>
             <div className="absolute inset-0 bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
               <img
-                src="https://picsum.photos/seed/biruk/800/1000"
-                alt="Biruk Maru"
+                src={myImage}
+                alt="Solomon Assefa"
                 className="w-full h-full object-cover opacity-80 hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-darker via-transparent to-transparent opacity-60"></div>
