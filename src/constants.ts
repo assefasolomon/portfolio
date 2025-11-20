@@ -11,7 +11,7 @@ import {
 import type { SkillCategory, ExperienceItem, Project, SocialLink } from './types';
 
 export const HERO_CONTENT = {
-  name: "Solomon Asesfa",
+  name: "Solomon Assefa",
   role: "Software Engineer",
   headline: "Building Intelligent Solutions for the Real World.",
   subheadline: "I bridge the gap between complex AI theories and impactful production software. Specializing in national-scale applications and digital innovation.",
