@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             </a>
             <a
               href="/resume.pdf"
-              download="Biruk_Maru_Resume.pdf"
+              download="Solomon.Assefa.pdf"
               className="flex items-center gap-2 px-8 py-4 bg-slate-800/50 text-white border border-slate-700 font-semibold rounded-lg hover:bg-slate-800 transition-colors hover:border-primary/50"
             >
               Download Resume <Download size={20} />
